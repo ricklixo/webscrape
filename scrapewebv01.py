@@ -11,7 +11,6 @@ soup = BeautifulSoup(source, 'lxml')
 
 # Realiza operações com arquivos .csv
 arquivo_csv = open('lista_serious.csv', 'w')
-
 csv_writer = csv.writer(arquivo_csv)
 csv_writer.writerow(['Título', ' Ano', ' Proposta', ' Mercado'])
 
