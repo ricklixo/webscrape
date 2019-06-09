@@ -55,7 +55,11 @@ def webscrape_articles(numeros):
     return lidos > 0
 
 #realiza operações com arquivos csv
+<<<<<<< HEAD
 arquivo_csv = open('InfoeInfov2.csv', 'w', encoding='utf-8')
+=======
+arquivo_csv = open('InfoeInfo_articles.csv', 'w', encoding='utf-8')
+>>>>>>> master
 csv_writer = csv.writer(arquivo_csv)
 csv_writer.writerow(['titulo', 'autor','resumo','keywords'])
 
